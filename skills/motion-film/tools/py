@@ -1,0 +1,5 @@
+#!/bin/sh
+# python with numpy/scipy/opencv via uv: offline from the cache when it can, else fetched once
+W="--no-project -q --with numpy --with scipy --with opencv-python-headless"
+uv run --offline $W python -c "" 2>/dev/null && exec uv run --offline $W python "$@"
+exec uv run $W python "$@"

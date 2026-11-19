@@ -1,0 +1,15 @@
+{
+  "name": "motion-film",
+  "description": "motion-film: launch films, explainers and reels made in code with raea, with motion blur, foley and a slideshow checker.",
+  "owner": {
+    "name": "s-azizkhan",
+    "url": "https://github.com/s-azizkhan"
+  },
+  "plugins": [
+    {
+      "name": "motion-film",
+      "source": "./",
+      "description": "Launch films, explainers and reels made fully in code and rendered locally with raea."
+    }
+  ]
+}
