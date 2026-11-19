@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Launch films, explainers and reels made fully in code and rendered locally with raea: motion blur, foley on every action, a slideshow/carry checker, a move library and 600+ proven video formats.",
   "author": { "name": "s-azizkhan", "url": "https://github.com/s-azizkhan" },
-  "homepage": "https://github.com/s-azizkhan/motion-film",
-  "repository": "https://github.com/s-azizkhan/motion-film",
+  "homepage": "https://github.com/s-azizkhan/motion-film-skill",
+  "repository": "https://github.com/s-azizkhan/motion-film-skill",
   "license": "MIT",
   "keywords": ["video", "motion-graphics", "raea", "reels", "launch-film", "explainer"]
 }

@@ -23,7 +23,7 @@ It runs end to end: brief → research → hook lab → script → voice → mus
 In Claude Code:
 
 ```
-/plugin marketplace add s-azizkhan/motion-film
+/plugin marketplace add s-azizkhan/motion-film-skill
 /plugin install motion-film@motion-film
 ```
 
