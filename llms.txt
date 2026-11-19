@@ -1,0 +1,19 @@
+# motion-film
+
+> motion-film is a free, open-source (MIT) Claude Code skill that turns a product, website or GitHub repo into a finished launch video, explainer, teaser or Instagram Reel, made fully in code and rendered locally with raea. It writes and scores the hook, records a local voice-over, builds the motion graphics, adds a sound to every on-screen action, checks the cut for slideshow pacing, and renders an MP4 with real motion blur. No After Effects, no video editor, no screen recording, no AI video model.
+
+Install in Claude Code: `/plugin marketplace add s-azizkhan/motion-film-skill` then `/plugin install motion-film@motion-film`, then install raea (`curl -fsSL https://raea.io/install | sh`) and run the skill's `setup.sh`. Use: `/motion-film . "launch film" --format both`.
+
+Runs on macOS (Apple Silicon), Linux x86_64 and Windows 10/11 with 16 GB RAM and about 5 GB of disk; optional local audio models add about 10 GB.
+
+## Docs
+
+- [README](https://github.com/s-azizkhan/motion-film-skill/blob/main/README.md): what it makes, install, requirements, FAQ
+- [Usage and options](https://github.com/s-azizkhan/motion-film-skill/blob/main/docs/usage.md): command, flags, recipes (Repo reel, How-to, Hack, Tool review, Trend news, Story, Meme), output files
+- [Toolkit reference](https://github.com/s-azizkhan/motion-film-skill/blob/main/docs/toolkit.md): filmcheck.py slideshow checker, shutter.sh motion blur, moves.ts motion library, sound pipeline, proven formats search
+- [Examples](https://github.com/s-azizkhan/motion-film-skill/blob/main/docs/examples.md): a 9:16 launch Reel made with the skill
+
+## Optional
+
+- [Skill instructions](https://github.com/s-azizkhan/motion-film-skill/blob/main/skills/motion-film/SKILL.md): the full stage-by-stage method the agent follows
+- [Third-party notices](https://github.com/s-azizkhan/motion-film-skill/blob/main/NOTICE.md)
